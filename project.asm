@@ -4,147 +4,141 @@ MODEL small
 ;--------------------------------------
 ;----------- equ section --------------
 ;--------------------------------------
-MOUSE_COLORred equ 127 ; red
+MOUSE_COLORred   equ 127 ; red
 MOUSE_COLORgreen equ 255 ; green
-MOUSE_COLORblue equ 127 ; blue
-FILE_NAME_OUT equ ''
+MOUSE_COLORblue  equ 127 ; blue
+FILE_NAME_OUT    equ ''
 
 ;---------------------------------------
-firstscreen  equ 'openscr.bmp'
-back  equ 'backgr.bmp'
-bankoff  equ 'banker.bmp'
-ocase equ 'opencase.bmp'
+firstscreen  equ 'assets\openscr.bmp'
+back         equ 'assets\backgr.bmp'
+bankoff      equ 'assets\banker.bmp'
+ocase        equ 'assets\opencase.bmp'
 
-back1 equ 'backgr1.bmp'
-back2 equ 'backgr2.bmp'
-back3 equ 'backgr3.bmp'
-back4 equ 'backgr4.bmp'
-back5 equ 'backgr5.bmp'
+back1 equ 'assets\backgr1.bmp'
+back2 equ 'assets\backgr2.bmp'
+back3 equ 'assets\backgr3.bmp'
+back4 equ 'assets\backgr4.bmp'
+back5 equ 'assets\backgr5.bmp'
 
-backo equ 'backopen.bmp'
-
-ruless equ 'rules.bmp'
+backo  equ 'assets\backopen.bmp'
+ruless equ 'assets\rules.bmp'
 
 ;---------------------------------------
 
+casen1   equ 'assets\case1.bmp'
+casen2   equ 'assets\case2.bmp'
+casen3   equ 'assets\case3.bmp'
+casen4   equ 'assets\case4.bmp'
 
-casen1  equ 'case1.bmp'
-casen2  equ 'case2.bmp'
-casen3  equ 'case3.bmp'
-casen4  equ 'case4.bmp'
+casen5   equ 'assets\case5.bmp'
+casen6   equ 'assets\case6.bmp'
+casen7   equ 'assets\case7.bmp'
+casen8   equ 'assets\case8.bmp'
 
-casen5  equ 'case5.bmp'
-casen6  equ 'case6.bmp'
-casen7  equ 'case7.bmp'
-casen8  equ 'case8.bmp'
+casen9   equ 'assets\case9.bmp'
+casen10  equ 'assets\case10.bmp'
+casen11  equ 'assets\case11.bmp'
+casen12  equ 'assets\case12.bmp'
 
-casen9  equ 'case9.bmp'
-casen10 equ 'case10.bmp'
-casen11 equ 'case11.bmp'
-casen12 equ 'case12.bmp'
-
-casen13 equ 'case13.bmp'
-casen14 equ 'case14.bmp'
-casen15  equ 'case15.bmp'
-casen16 equ 'case16.bmp'
+casen13  equ 'assets\case13.bmp'
+casen14  equ 'assets\case14.bmp'
+casen15  equ 'assets\case15.bmp'
+casen16  equ 'assets\case16.bmp'
 
 ;-------------------------------------------------------
 ;-------------------------------------------------------
 ;-------------------------------------------------------
 
-moneyn1 equ '5in.bmp'
-moneyn2 equ '10in.bmp'
-moneyn3 equ '20in.bmp'
-moneyn4 equ '50in.bmp'
+moneyn1  equ 'assets\5in.bmp'
+moneyn2  equ 'assets\10in.bmp'
+moneyn3  equ 'assets\20in.bmp'
+moneyn4  equ 'assets\50in.bmp'
 
-moneyn5 equ '100in.bmp'
-moneyn6 equ '150in.bmp'
-moneyn7 equ '300in.bmp'
-moneyn8 equ '500in.bmp'
+moneyn5  equ 'assets\100in.bmp'
+moneyn6  equ 'assets\150in.bmp'
+moneyn7  equ 'assets\300in.bmp'
+moneyn8  equ 'assets\500in.bmp'
 
-moneyn9 equ '1000in.bmp'
-moneyn10 equ '2500in.bmp'
-moneyn11 equ '5000in.bmp'
-moneyn12 equ '10000in.bmp'
+moneyn9  equ 'assets\1000in.bmp'
+moneyn10 equ 'assets\2500in.bmp'
+moneyn11 equ 'assets\5000in.bmp'
+moneyn12 equ 'assets\10000in.bmp'
 
-moneyn13 equ '20000in.bmp'
-moneyn14 equ '30000in.bmp'
-moneyn15 equ '40000in.bmp'
-moneyn16 equ '50000in.bmp'
+moneyn13 equ 'assets\20000in.bmp'
+moneyn14 equ 'assets\30000in.bmp'
+moneyn15 equ 'assets\40000in.bmp'
+moneyn16 equ 'assets\50000in.bmp'
 
 ;-----------------------------------------
 
-moneyo1 equ '5out.bmp'
-moneyo2 equ '10out.bmp'
-moneyo3 equ '20out.bmp'
-moneyo4 equ '50out.bmp'
+moneyo1  equ 'assets\5out.bmp'
+moneyo2  equ 'assets\10out.bmp'
+moneyo3  equ 'assets\20out.bmp'
+moneyo4  equ 'assets\50out.bmp'
 
-moneyo5 equ '100out.bmp'
-moneyo6 equ '150out.bmp'
-moneyo7 equ '300out.bmp'
-moneyo8 equ '500out.bmp'
+moneyo5  equ 'assets\100out.bmp'
+moneyo6  equ 'assets\150out.bmp'
+moneyo7  equ 'assets\300out.bmp'
+moneyo8  equ 'assets\500out.bmp'
 
-moneyo9 equ '1000out.bmp'
-moneyo10 equ '2500out.bmp'
-moneyo11 equ '5000out.bmp'
-moneyo12 equ '10000out.bmp'
+moneyo9  equ 'assets\1000out.bmp'
+moneyo10 equ 'assets\2500out.bmp'
+moneyo11 equ 'assets\5000out.bmp'
+moneyo12 equ 'assets\10000out.bmp'
 
-moneyo13 equ '20000out.bmp'
-moneyo14 equ '30000out.bmp'
-moneyo15 equ '40000out.bmp'
-moneyo16 equ '50000out.bmp'
+moneyo13 equ 'assets\20000out.bmp'
+moneyo14 equ 'assets\30000out.bmp'
+moneyo15 equ 'assets\40000out.bmp'
+moneyo16 equ 'assets\50000out.bmp'
 
 ;----------------------------------------------
-openedcase1 equ 'openc1.bmp'
-openedcase2 equ 'openc2.bmp'
-openedcase3 equ 'openc3.bmp'
-openedcase4 equ 'openc4.bmp'
-openedcase5 equ 'openc5.bmp'
-openedcase6 equ 'openc6.bmp'
-openedcase7 equ 'openc7.bmp'
-openedcase8 equ 'openc8.bmp'
-openedcase9 equ 'openc9.bmp'
-openedcase10 equ 'openc10.bmp'
-openedcase11 equ 'openc11.bmp'
-openedcase12 equ 'openc12.bmp'
-openedcase13 equ 'openc13.bmp'
-openedcase14 equ 'openc14.bmp'
-openedcase15 equ 'openc15.bmp'
-openedcase16 equ 'openc16.bmp'
+openedcase1  equ 'assets\openc1.bmp'
+openedcase2  equ 'assets\openc2.bmp'
+openedcase3  equ 'assets\openc3.bmp'
+openedcase4  equ 'assets\openc4.bmp'
+openedcase5  equ 'assets\openc5.bmp'
+openedcase6  equ 'assets\openc6.bmp'
+openedcase7  equ 'assets\openc7.bmp'
+openedcase8  equ 'assets\openc8.bmp'
+openedcase9  equ 'assets\openc9.bmp'
+openedcase10 equ 'assets\openc10.bmp'
+openedcase11 equ 'assets\openc11.bmp'
+openedcase12 equ 'assets\openc12.bmp'
+openedcase13 equ 'assets\openc13.bmp'
+openedcase14 equ 'assets\openc14.bmp'
+openedcase15 equ 'assets\openc15.bmp'
+openedcase16 equ 'assets\openc16.bmp'
 
-openedcase equ 'opened.bmp'
+openedcase     equ 'assets\opened.bmp'
 ;-------------------------------
-gameenddeal equ 'enddeal.bmp'
-gameendndeal equ 'endndeal.bmp'
-opencasedeal equ 'dcaseo.bmp'
-opencasendeal equ 'ndcaseo.bmp'
-
-
+gameenddeal    equ 'assets\enddeal.bmp'
+gameendndeal   equ 'assets\endndeal.bmp'
+opencasedeal   equ 'assets\dcaseo.bmp'
+opencasendeal  equ 'assets\ndcaseo.bmp'
 
 ;--------------------------------------
 ;---------  end equ section -----------
 ;--------------------------------------
 
-
 ;--------------------------------------
 ;----------- macro section ------------
 ;--------------------------------------
 macro SHOW_MOUSE
-	mov ax, 1
-	int 33h
+    mov ax, 1
+    int 33h
 endm
-
 
 macro HIDE_MOUSE
-	mov ax, 2
-	int 33h
+    mov ax, 2
+    int 33h
 endm
 
-MACRO PUT_CHAR   MY_CHAR
-	mov dl,MY_CHAR
-	mov ah,2
-	int 21h
-ENDM 
+MACRO PUT_CHAR MY_CHAR
+    mov dl, MY_CHAR
+    mov ah, 2
+    int 21h
+ENDM
 
 ;--------------------------------------
 ;--------- end macro section ----------
@@ -152,16 +146,14 @@ ENDM
 
 STACK 0f500h
 
-
-
 ;--------------------------------------
 ;----------- constant section ---------
 ;--------------------------------------
-SCREEN_WIDTH = 320
-BMP_MAX_WIDTH = SCREEN_WIDTH
-BMP_MAX_HEIGHT = 200
+SCREEN_WIDTH    = 320
+BMP_MAX_WIDTH   = SCREEN_WIDTH
+BMP_MAX_HEIGHT  = 200
 SMALL_BMP_HEIGHT = 48
-SMALL_BMP_WIDTH = 78
+SMALL_BMP_WIDTH  = 78
 ;--------------------------------------
 ;---------end constant section --------
 ;--------------------------------------
@@ -172,6 +164,7 @@ DATASEG
 ;--------------- bmp DATASEG ----------------
 ;--------------------------------------------
 ;--------------------------------------------
+
     ScrLine 	db BMP_MAX_WIDTH dup (0)  ; One Color line read buffer
 	
 	open1 	db firstscreen ,0
@@ -277,7 +270,7 @@ DATASEG
 	FileHandle	dw ?
 	Header 	    db 54 dup(0)
 	Palette 	db 400h dup (0)
-	SmallPicName db 'Pic48X78.bmp',0
+	SmallPicName db 'assets\Pic48X78.bmp',0
 	ErrorFile           db 0
 	Color db ?
 	Xclick dw ?
