@@ -3,4 +3,5 @@
 *.obj
 *.map
 *.tmp
-*.bak
+*.bak*.ovl
+*.rar
